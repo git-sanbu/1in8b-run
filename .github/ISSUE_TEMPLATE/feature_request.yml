@@ -1,0 +1,11 @@
+name: Suggest an improvement / 功能建议
+description: Suggest a website improvement / 提出网站改进建议
+title: "[Suggestion] "
+body:
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Your suggestion / 你的建议
+      description: Explain the change and how it would help players.
+    validations:
+      required: true

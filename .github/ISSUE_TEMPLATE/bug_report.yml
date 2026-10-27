@@ -1,0 +1,22 @@
+name: Website bug / 网站问题
+description: Report a problem with 1in8b.run / 反馈网站使用问题
+title: "[Bug] "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page URL / 页面地址
+      placeholder: https://1in8b.run/en/
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps and result / 操作步骤与实际结果
+      description: Describe what happened and what you expected. Issues are public; remove personal information before posting.
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device / 浏览器与设备
