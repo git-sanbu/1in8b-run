@@ -6,16 +6,20 @@ A fictional browser game about the small choices that shape a life.
 
 The October 28, 2026 edition is a new implementation: a new game engine, independently written scenarios and translations, and a new visual design. It retains the **1 in 8 Billion** name and the **1in8b.run** domain.
 
-## Play a life in twelve chapters
+## Build a life, then discover what follows
 
-Start at age 18. In each chapter, choose one of three ways forward. The story advances five years at a time, ending with a journal of your twelve decisions at age 78.
+Draft eight talents and choose three compatible strengths, with two free redraws. Distribute twenty starting points across four priorities. Begin at age 18, make twelve major decisions, and discover four conditional annual events after each. Look back on the story at age 78.
 
 Four fictional game scores reflect your choices: wellbeing, connection, craft, and reserves. There is no perfect life or required final score. The game uses no country probabilities, real-person profiles, or demographic model.
 
+- Choose from 18 talents and 6 fictional starting settings.
+- Discover a pool of 29 major scenarios and 36 annual event stories.
+- Collect 12 achievements and optionally carry one talent into the next draft.
 - Play in English, Simplified Chinese, or Korean.
 - Leave and continue using the same browser’s local save.
 - Download your completed story as a text file.
-- Share a scenario code so another player encounters the same situations. Their decisions remain their own.
+- Share the starting scenario and rules edition. Other players choose their own builds, so later events can differ.
+- Continue earlier choices-edition saves under their original rules.
 - Start again after confirming that the current save will be replaced.
 
 No account, payment, or cloud storage is required or provided. Clearing browser site data can remove the local save.
@@ -31,3 +35,7 @@ Older descriptions and images of the previous hosted version do not describe thi
 [How to play](https://1in8b.run/en/help/) · [About](https://1in8b.run/en/about/) · [Privacy](https://1in8b.run/en/privacy/) · [Terms](https://1in8b.run/en/terms/)
 
 This repository introduces the current game and collects website feedback. Use [GitHub Issues](https://github.com/git-sanbu/1in8b-run/issues) for bugs, suggestions, or content concerns. A GitHub account is required. Issues are public: do not post private addresses, phone numbers, or other sensitive material.
+
+## Game design reference
+
+Talent drafting, initial allocation, conditional annual events, and replay collections were informed by [VickScarlet/remake](https://github.com/VickScarlet/remake), formerly lifeRestart (MIT; inspected commit `f04888e202e5dfca0df48c51b8a099dc03cf08b4`). This edition uses independently written code, stories, UI, and translations; upstream source and event sheets are not bundled. See the [reference license notice](https://1in8b.run/reference-license.txt). No affiliation or endorsement is claimed.
