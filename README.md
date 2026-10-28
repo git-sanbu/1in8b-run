@@ -1,42 +1,33 @@
-# 1in8b life — 1 in 8 Billion
+# 1 in 8 Billion
 
-**Explore how birthplace, circumstances, choices and chance can shape a simulated life.**
+A fictional browser game about the small choices that shape a life.
 
-[Play in English](https://1in8b.run/en/) · [简体中文](https://1in8b.run/zh-hans/) · [中文介绍](README.zh-CN.md) · [Feedback](https://github.com/git-sanbu/1in8b-run/issues)
+[Play in English](https://1in8b.run/en/) · [简体中文](https://1in8b.run/zh-hans/) · [한국어](https://1in8b.run/ko/) · [中文介绍](README.zh-CN.md) · [Feedback](https://github.com/git-sanbu/1in8b-run/issues)
 
-1in8b life is a free browser life simulation using public statistics from **172 countries and regions**. Begin at birth, discover a family and birthplace, then make choices about education, work, relationships and health.
+The October 28, 2026 edition is a new implementation: a new game engine, independently written scenarios and translations, and a new visual design. It retains the **1 in 8 Billion** name and the **1in8b.run** domain.
 
-![Life simulation interface, shown in Simplified Chinese](https://1in8b.run/images/1in8b-life-gameplay-1200.webp)
+## Play a life in twelve chapters
 
-## Why try it?
+Start at age 18. In each chapter, choose one of three ways forward. The story advances five years at a time, ending with a journal of your twelve decisions at age 78.
 
-- Experience different starting conditions through a randomly drawn birthplace.
-- Explore past, present or projected future worlds.
-- Choose a yearly focus and respond to life events.
-- Pause, change the pace or use Auto mode to watch a story unfold.
-- Compare country statistics and reflect on simulated lives alongside your own.
+Four fictional game scores reflect your choices: wellbeing, connection, craft, and reserves. There is no perfect life or required final score. The game uses no country probabilities, real-person profiles, or demographic model.
 
-## Start playing
+- Play in English, Simplified Chinese, or Korean.
+- Leave and continue using the same browser’s local save.
+- Download your completed story as a text file.
+- Share a scenario code so another player encounters the same situations. Their decisions remain their own.
+- Start again after confirming that the current save will be replaced.
 
-1. Open [1in8b.run](https://1in8b.run/en/).
-2. Keep the defaults or adjust the life settings.
-3. Select **Be born**, review the birth registration and begin the life.
-4. Make choices and follow the life record. Use **Move my lives** to export a backup if you want to keep your records.
+No account, payment, or cloud storage is required or provided. Clearing browser site data can remove the local save.
 
-## What this hosted version provides
+## Current release and retired pages
 
-Lives and settings are stored in the current browser. Backups can be exported and imported between browsers. Shared stories and memorials are available to browse; interactions stay in the current browser. This version does not connect to the original service's paid passes, cloud accounts or live community.
+The current release does not serve the previous bundles, scripts, artwork, page text, translations, or operator details. Legacy JavaScript, including `/a/en.8b7b880596.js` and `/local-api.js`, returns HTTP 410. Unsupported language editions and retired community, purchase, and statistics routes have been withdrawn.
 
-The simulation is intended for ages **15 and up**. It includes themes such as death, illness, war and violence without graphic scenes. A frightening-content setting and classroom mode are available.
+Older descriptions and images of the previous hosted version do not describe this release. This is an independently operated site, maintained by [git-sanbu](https://github.com/git-sanbu); it is not operated by or affiliated with 1in8b.life.
 
-## Data and interpretation
+## Information and support
 
-Inputs include [UN World Population Prospects](https://population.un.org/wpp/) and [World Bank Open Data](https://data.worldbank.org/), alongside the health, education and historical sources listed on the website. Dataset years vary; some missing values use regional estimates, and future scenarios use projections.
+[How to play](https://1in8b.run/en/help/) · [About](https://1in8b.run/en/about/) · [Privacy](https://1in8b.run/en/privacy/) · [Terms](https://1in8b.run/en/terms/)
 
-Simulated outcomes are not predictions of an individual's future. Read the [country statistics](https://1in8b.run/en/c/) and the source notes for context.
-
-## Contact and feedback
-
-The website's hosted pages and this repository are maintained by [Sanbu (@git-sanbu)](https://github.com/git-sanbu). Report website bugs or suggest improvements through [GitHub Issues](https://github.com/git-sanbu/1in8b-run/issues). Issue submissions are public and require a GitHub account.
-
-This repository introduces the hosted website and collects feedback. The underlying simulation and assets originate from [1 in 8 Billion](https://1in8b.life/); source and dataset attribution remain with their respective creators and providers.
+This repository introduces the current game and collects website feedback. Use [GitHub Issues](https://github.com/git-sanbu/1in8b-run/issues) for bugs, suggestions, or content concerns. A GitHub account is required. Issues are public: do not post private addresses, phone numbers, or other sensitive material.
